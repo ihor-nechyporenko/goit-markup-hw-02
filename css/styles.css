@@ -1,0 +1,106 @@
+/* BACKGROUND: 
+main color #FFFFFF
+butt0n + team section bg color #F5F4FA 
+header #FFFFFF
+footer (secondary bg color) #2F303A */
+
+/* TEXT COLOR: */
+/* main title color #212121 */
+/* main text (p) color #757575 */
+/* accent & hover effect #2196F3 */
+/* h1 title + buttom text #FFFFFF */
+/* footer text primary color #FFFFFF 
+    secondary text color rgba(255, 255, 255, 0.6) */
+
+    :root {
+        --primary-text-color: #757575;
+        --title-text-color: #212121;
+        --accent-color: #2196F3;
+        --primary-bg-color: #FFFFFF;
+        --secondary-bg-color: #2F303A;
+        --primary-button-color: #F5F4FA;
+
+    }
+
+    body {
+        background-color: var(--primary-bg-color);
+        color: var(--primary-text-color);
+    }
+
+    .logo {
+        color: var(--accent-color);
+    }
+
+    .logo-header {
+        color: var(--title-text-color);
+    }
+
+    .button-order {
+        background-color: var(--accent-color);
+        color: #FFFFFF;
+    }
+
+    .button {
+        background-color: var(--primary-button-color);
+        color: var(--title-text-color);
+    } 
+
+    h1 {
+        color: #FFFFFF;
+    }
+
+    h2,
+    h3 {
+        color: var(--title-text-color);
+    }
+
+    .section-order {
+        background-color: var(--secondary-bg-color);
+    }
+
+    .section-team {
+        background-color: #F5F4FA;
+    }
+
+    /* Header */
+
+    .nav-link {
+        color: var(--title-text-color);
+    }
+
+    .nav-link:focus,
+    .nav-link:hover {
+        color: var(--accent-color);
+    }
+
+    .contacts-header {
+        color: var(--primary-text-color);
+    }
+
+    .contacts-header:hover,
+    .contacts-header:focus {
+        color: var(--accent-color);
+    }
+
+    /* Footer */
+
+    footer {
+        background-color: var(--secondary-bg-color);
+    }
+
+    .logo-footer {
+        color: #FFFFFF;
+    }
+
+    .list {
+        list-style: none;
+    }
+
+    .address {
+        color: #FFFFFF;
+    }
+
+    .contacts-footer {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
